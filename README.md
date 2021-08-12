@@ -1,6 +1,6 @@
 # Blockchain Backed Ledger
 
-![Blockchain_Backed_Ledger](https://github.com/ScientiaCapital/Blockchain-Backed-Ledger/blob/main/Images/BlockChain_System.jpeg)
+![Blockchain_Backed_Ledger]()
 
 ---
 
@@ -40,9 +40,7 @@ import hashlib
 
 ## Examples
 
-![Example_One](https://github.com/ScientiaCapital/Blockchain-Backed-Ledger/blob/main/Images/TransactionBlockchain.png)
-
-![Example_Two]()
+![Example_One]()
 
 ![Example_Two]()
 
