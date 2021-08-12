@@ -2,6 +2,7 @@
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
+
 ### Functionality Helper Functions ###
 def parse_int(n):
     """
@@ -124,35 +125,39 @@ def recommend_portfolio(intent_request):
     risk_level = get_slots(intent_request)["riskLevel"]
     source = intent_request["invocationSource"]
 
-    ## Validate user input data
-    def validate_data(age, investment_amount):
-        # Validate age must be less than 65 years old
-        if age is not None:
-            if age < 18:
-                return build_validation_result(
-                    False,
-                    "age",
-                    "You must be between the ages of 18 to 65 to use this service, "
-                    "please provide a different age.",
-                )
-        if age > 65:
+
+# YOUR CODE GOES HERE!
+
+## Validate user input data
+def validate_data(age, investment_amount):
+    # Validate age must be less than 65 years old
+    if age is not None:
+        if age < 0:
             return build_validation_result(
                 False,
                 "age",
-                "You must be between the ages of 18 to 65 to use this service, "
+                "You must be between the ages of 0 to 65 to use this service, "
                 "please provide a different age.",
             )
-        # Validate investment_amount must be equal to or greater than 10000
-        if investment_amount is not None:
-            if investment_amount < 10000:
-                return build_validation_result(
-                    False,
-                    "investmentAmount"
-                    "The minimum investment amount must be 10,000, "
-                    "please provide a different investment amount to continue.",
-                )
-        # True result if age check and investment_amount check are successful
-        return build_validation_result(True, None, None)
+    if age > 65:
+        return build_validation_result(
+            False,
+            "age",
+            "You must be between the ages of 0 to 65 to use this service, "
+            "please provide a different age.",
+        )
+    # Validate investment_amount must be equal to or greater than 5000
+    if investment_amount is not None:
+        if investment_amount < 5000:
+            return build_validation_result(
+                False,
+                "investmentAmount"
+                "The minimum investment amount must be 5,000, "
+                "please provide a different investment amount to continue.",
+            )
+    # True result if age check and investment_amount check are successful
+    return build_validation_result(True, None, None)
+
 
 ### Intents Dispatcher ###
 def dispatch(intent_request):
