@@ -38,7 +38,7 @@ def validate_data(age, investment_amount, risk_level):
             return build_validation_result(
                 False,
                 "age",
-                "You must be younger than 65 years old and enter a valide age above 0."
+                "You must be younger than 65 years old and enter a valid age above 0."
                 " Please provide a different age:",
             )
     # Validate if the user has an investment amount greater than or equal to 5000
