@@ -25,13 +25,7 @@ This application runs AWS using:
 
 A video of the basic bot without the lambda function connected to it:
 
-![Example](https://github.com/ScientiaCapital/Retirement-Robo-Advisor/blob/main/Video/Robo_Advisor_Recording.mov)
-
-
-
-https://user-images.githubusercontent.com/75587444/129599538-6b3d5081-c597-4e49-8def-fefa1e1e916c.mov
-
-
+https://user-images.githubusercontent.com/75587444/129599478-edfac52f-726c-4e9d-9717-23b4007a73bf.mov
 
 
 A video of the working bot with the lambda function implemented:
