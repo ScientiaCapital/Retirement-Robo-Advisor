@@ -17,17 +17,11 @@ This application runs AWS using:
 
 ---
 
-## Working Bot Images and Videos
-
-The slots, sample utterances, and confirmation message:
-
-![Example]()
-
-![Example]()
+## Working Bot Video Examples
 
 A video of the basic bot without the lambda function connected to it:
 
-![Example]()
+![Example](https://github.com/ScientiaCapital/Retirement-Robo-Advisor/blob/main/Video/Robo_Advisor_Recording.mov)
 
 A video of the working bot with the lambda function implemented:
 
