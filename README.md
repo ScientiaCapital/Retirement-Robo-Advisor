@@ -6,19 +6,14 @@
 
 ## Technologies
 
-Before attempting to execute any Python code in pychain.py, it is imperative that your development environment holds the following modules:
+The goal of this project is to create an Amazon Lex bot with an Amazon Lambda function that gives investment advice for a retiremnet portfolio based on the users level of risk.  
 
-[numpy](https://numpy.org/) - Scientific computing module
+This application runs AWS using:
 
-[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Object-oriented filesystem path library
+[AWS Lex](https://aws.amazon.com/lex/) - A tool for creating conversational AI chatbots
 
-[pathlib](https://docs.python.org/3/library/pathlib.html) - Support for type hints module
+[AWS Lambda](https://aws.amazon.com/lambda/) - A tool for running code on the cloud
 
-[datetime](https://docs.python.org/3/library/datetime.html) - Basic date and time types module
-
-[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Data analysis module
-
-[hashlib](https://docs.python.org/3/library/hashlib.html) - Hash and message digest library
 
 ---
 
@@ -38,23 +33,28 @@ import hashlib
 
 ---
 
-## Examples
+## Working Bot Images and Videos
 
-![Example_One]()
+The slots, sample utterances, and confirmation message:
 
-![Example_Two]()
+![Example]()
+
+![Example]()
+
+A video of the basic bot without the lambda function connected to it:
+
+![Example]()
+
+A video of the working bot with the lambda function implemented:
+
+![Example]()
 
 ---
 
-## Usage
+## Installation 
 
-Clone repository onto your personal machine.
+![Sign_up_for_AWS_Services](https://aws.amazon.com/)
 
-Within your Python 3.7+ environment, navigate to the directory in which the pychain.py file from this repository is located.
-
-Run the following command to launch the web application:
-
-streamlit run pychain.py
 
 ---
 
