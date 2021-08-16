@@ -1,6 +1,6 @@
-# Blockchain Backed Ledger
+# Retirement Robo Advisor
 
-![Blockchain_Backed_Ledger]()
+![Retirement_Robo_Adcvisor]()
 
 ---
 
@@ -8,11 +8,11 @@
 
 Before attempting to execute any Python code in pychain.py, it is imperative that your development environment holds the following modules:
 
-[streamlit](https://streamlit.io/) - Script-to-web application library
+[numpy](https://numpy.org/) - Scientific computing module
 
-[dataclasses](https://docs.python.org/3/library/dataclasses.html) - Data class decorator module
+[pandas](https://pandas.pydata.org/pandas-docs/stable/) - Object-oriented filesystem path library
 
-[typing](https://docs.python.org/3/library/typing.html) - Support for type hints module
+[pathlib](https://docs.python.org/3/library/pathlib.html) - Support for type hints module
 
 [datetime](https://docs.python.org/3/library/datetime.html) - Basic date and time types module
 
