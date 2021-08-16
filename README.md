@@ -17,22 +17,6 @@ This application runs AWS using:
 
 ---
 
-## Installation Guide
-
-With your _Python 3.7+_ environment, run the following commands via CLI:
-
-```
-import streamlit as st
-from dataclasses import dataclass
-from typing import Any, List
-import datetime as datetime
-import pandas as pd
-import hashlib
-
-```
-
----
-
 ## Working Bot Images and Videos
 
 The slots, sample utterances, and confirmation message:
@@ -53,7 +37,7 @@ A video of the working bot with the lambda function implemented:
 
 ## Installation 
 
-![Sign_up_for_AWS_Services](https://aws.amazon.com/)
+[Sign_up_for_AWS_Services](https://aws.amazon.com/)
 
 
 ---
