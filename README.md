@@ -1,6 +1,6 @@
 # Retirement Robo Advisor
 
-![Retirement_Robo_Adcvisor]()
+![Retirement_Robo_Adcvisor](https://github.com/ScientiaCapital/Retirement-Robo-Advisor/blob/main/Video/roboAdvisorImage1.jpeg)
 
 ---
 
