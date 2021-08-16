@@ -1,7 +1,3 @@
-
-
-https://user-images.githubusercontent.com/75587444/129599478-edfac52f-726c-4e9d-9717-23b4007a73bf.mov
-
 # Retirement Robo Advisor
 
 ![Retirement_Robo_Adcvisor](https://github.com/ScientiaCapital/Retirement-Robo-Advisor/blob/main/Video/roboAdvisorImage1.jpeg)
