@@ -24,10 +24,6 @@ A video of the basic bot without the lambda function connected to it:
 https://user-images.githubusercontent.com/75587444/129599478-edfac52f-726c-4e9d-9717-23b4007a73bf.mov
 
 
-A video of the working bot with the lambda function implemented:
-
-![Example]()
-
 ---
 
 ## Installation 
